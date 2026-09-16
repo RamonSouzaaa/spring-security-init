@@ -1,0 +1,10 @@
+spring.application.name=spring-security-init
+
+spring.jpa.database-plataform=org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.url=URL_SERVIDOR_BANCO
+spring.datasource.username=USUARIO
+spring.datasource.password=SENHA
+spring.jpa.hibernate.ddl-auto=update
+
+api.security.token.secret=CHAVE_API_TOKEN
