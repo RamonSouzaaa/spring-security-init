@@ -2,6 +2,12 @@
 
 Repositório de exemplo/estudo sobre framework spring boot, implementando o registro, geração de token, controle de token e login de uma API.
 
+** Dados do projeto **
+
+- Java: JDK 25
+- Maven: 4.0.0
+- Spring Boot: 4.1.1
+
 ## 📂 Estrutura do projeto
 
 O projeto foi construído utilizando os padrões de projeto spring boot, organizando as classes por suas respectivas responsabilidades de arquitetura:
@@ -15,17 +21,17 @@ src/
 				└── exemple/
 					└── spring_security_init/
 						└── controller/
-							├── AuthenticationController.java 				# Controlador de requisições de acesso a API (login, register)
-							├── HelloWorldController.java 					# Acesso a API após login
+							├── AuthenticationController.java				# Controlador de requisições de acesso a API (login, register)
+							├── HelloWorldController.java					# Acesso a API após login
 						└── domain/
 							└── enum/
-								├── UserRole.java 							# Enum de controle de roles de usuários 
+								├── UserRole.java							# Enum de controle de roles de usuários 
 							└── model/
-								├── User.java 								# Entity da tabela de usuários para registro e acesso a API
+								├── User.java								# Entity da tabela de usuários para registro e acesso a API
 						└── dto/
-							├── AuthenticationDTO.java 						# Classe de dados para recebimento de dados de login
-							├── LoginResponseDTO.java 						# Classe de dados para resposta com o token de acesso
-							├── RegisterDTO.java 							# Classe de dados para recebimento de dados de registros
+							├── AuthenticationDTO.java						# Classe de dados para recebimento de dados de login
+							├── LoginResponseDTO.java						# Classe de dados para resposta com o token de acesso
+							├── RegisterDTO.java							# Classe de dados para recebimento de dados de registros
 						└── infra/
 							└── exception/
 								├── GlobalExceptionHandler.java				# Controlador para interceptar e retornar de forma organizada os erros da API
@@ -40,20 +46,20 @@ src/
 							├── AuthenticationService.java					# Serviço para processos de login e registro
 							├── CustomUserDetailsService.java				# Serviço gerênciado pelo Spring para verificar o usuário no banco de dados
 							├── TokenService.java							# Serviço para processos de geração de token e verificação de token
-						├── SpringSecurityInitApplication.java 				# Inicializador da aplicação
+						├── SpringSecurityInitApplication.java				# Inicializador da aplicação
 ```
 
 ## 🛠️ Dependências do projeto
 
 Para esse projeto foi utilizado as depedências abaixo:
 
-->  Spring Security
-->  Spring Data JPA
-->  Spring Web
-->  Lombok
-->  Validation
-->  Auth JWT
-->  PostgreSQL Driver
+- Spring Security
+- Spring Data JPA
+- Spring Web
+- Lombok
+- Validation
+- Auth JWT
+- PostgreSQL Driver
 
 ```xml
 <dependencies>
@@ -86,3 +92,4 @@ Para esse projeto foi utilizado as depedências abaixo:
 	</dependency>
 </dependencies>
 ```
+
