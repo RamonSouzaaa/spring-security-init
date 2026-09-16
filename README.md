@@ -2,7 +2,7 @@
 
 Repositório de exemplo/estudo sobre framework spring boot, implementando o registro, geração de token, controle de token e login de uma API.
 
-** Dados do projeto **
+*** Dados do projeto ***
 
 - Java: JDK 25
 - Maven: 4.0.0
