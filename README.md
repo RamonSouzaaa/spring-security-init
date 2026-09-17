@@ -6,7 +6,7 @@ Repositório de exemplo/estudo sobre framework spring boot, implementando o regi
 
 - Java: JDK 25
 - Maven: 4.0.0
-- Spring Boot: 4.1.1
+- Spring Boot: 3.9.16
 
 ## 📂 Estrutura do projeto
 
